@@ -1,0 +1,70 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  #logo{
+    
+    mix-blend-mode: multiply; 
+}
+
+#demoSearchDiv{
+    background-color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    border-radius: 10px;
+    height: 400px;
+    margin:auto;
+   
+}
+
+input{
+    border-radius: 15px;
+}
+
+#demoSearchForm{
+    font-size: 1rem;
+    
+}
+
+#formFooter{
+  background-color: white;
+}
+
+#indexFooter{
+  color: rgb(13, 0, 0);
+  
+  
+}
+
+.body{
+  height: 100vh;
+}
